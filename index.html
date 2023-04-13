@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_container">
+        <h1>Login </h1>
+        <hr>
+        <input type="text" placeholder="Username">
+        <input type="password" id="password" placeholder=" Password">
+        
+        <p class="ptag"> Forgot Password?</p>
+        <div class="button">
+            <button  id="button">Login</button>
+        </div>
+        <div class="footer">
+            <p>Not a member?</p>
+            <a href="">Signup</a>
+        </div>
+        <div class="password_popup">
+            <div class="text">
+                <p>The minimum password length is 8 characters and must contain atleast 1 lowercase letter , 1 capital letter
+                    , 1 number and 1 special character
+                </p>
+            </div>
+    
+            <div class="list">
+                <ul>
+                    <li><div class="circle" id="minimum_char"></div><p># of characters</p></li>
+                    <li><div class="circle" id="lower_letter"></div><p>Lowercase letter</p></li>
+                    <li><div class="circle" id="capital_letter"></div><p>Capital letter</p></li>
+                    <li><div class="circle" id="number"></div><p>Number</p></li>
+                    <li><div class="circle" id="special_char"></div><p>Special character</p></li>
+                </ul>
+            </div>
+            <div class="symbol">
+                &#x25B2;
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
